@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg"  version="1.2" height="0.125in" width="0.2in" viewBox="0 0 200 125" baseProfile="tiny">
+    <desc>
+        <referenceFile>axial_stand1_2_100mil_pcb.svg</referenceFile>
+    </desc>
+    <desc >Fritzing footprint SVG</desc>
+    <g  gorn="0.1" id="silkscreen">
+        <circle  cx="137.5" cy="62.5" stroke="white" r="57" stroke-width="10" fill="none"/>
+        <rect  stroke="white" height="20" width="20" stroke-width="10" fill="white" x="77.5" y="52.5"/>
+    </g>
+    <g  gorn="0.2" id="copper0">
+        <g  gorn="0.2.0" id="copper1">
+            <!--  <rect width="55" x="10" y="35" fill="none" height="55" stroke="rgb(255, 191, 0)" stroke-width="20" /> -->
+            <circle  cx="37.5" cy="62.5" stroke="rgb(255, 191, 0)" r="27.5" gorn="0.2.0.0" stroke-width="20" fill="none" id="connector0pin"/>
+            <circle  cx="137.5" cy="62.5" stroke="rgb(255, 191, 0)" r="27.5" gorn="0.2.0.1" stroke-width="20" fill="none" id="connector1pin"/>
+        </g>
+    </g>
+    <g  gorn="0.3" id="keepout"/>
+    <g  gorn="0.4" id="soldermask"/>
+    <g  gorn="0.5" id="outline"/>
+</svg>

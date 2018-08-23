@@ -1,0 +1,71 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=piClock3
+*Date=23:54:14
+*CreatedBy=Fritzing 0.9.2b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;150;THT;55.7567;-24.4742;-90;Bottom;R5
+2;;100 mil [THT];88.6215;-32.5825;180;Bottom;D5
+3;;THT;65.4728;-2.13328;-90;Bottom;J5
+4;33nF;200 mil [THT, multilayer];97.6781;-15.9682;-90;Bottom;C1
+5;;THT;73.3166;-32.4442;-90;Bottom;J6
+6;;;18.198;-31.1174;0;Bottom;Via15
+7;150;THT;40.5167;-24.4742;-90;Bottom;R11
+8;;;34.0717;-35.6916;0;Bottom;Via2
+9;150;THT;50.6767;-24.4742;-90;Bottom;R7
+10;10µF;100 mil [THT, electrolytic];90.7624;-25.1786;0;Bottom;C4
+11;33nF;200 mil [THT, multilayer];90.1757;-18.5608;0;Bottom;C2
+12;1k;THT;22.2012;-36.4359;180;Bottom;Rp6
+13;;;9.30716;-8.04085;0;Bottom;Via6
+14;;;2.05022;-18.2896;0;Bottom;Via11
+15;10µF;100 mil [THT, electrolytic];96.8008;-25.2669;90;Bottom;C3
+16;270;THT;93.6608;-14.9484;90;Bottom;R2
+17;;;9.29829;-9.40868;0;Bottom;Via3
+18;;100 mil [THT];90.5279;-29.6903;180;Bottom;D7
+19;;;0.996051;-19.4219;0;Bottom;Via13
+20;;;18.198;-23.4266;0;Bottom;Via14
+21;;;24.5114;-8.97595;90;Bottom;Composant1
+22;150;THT;43.0567;-24.4742;-90;Bottom;R10
+23;150;THT;48.1367;-24.4742;-90;Bottom;R8
+24;;;82.488;16.7972;0;Bottom;Raspberry Pi1
+25;;THT;94.6545;-35.9042;-90;Bottom;J3
+26;;;3.13492;-30.8443;0;Bottom;Via10
+27;150;THT;97.7142;-20.8889;0;Bottom;R3
+28;;;16.4005;-26.8279;0;Bottom;Via16
+29;150;THT;35.5025;-24.4742;-90;Bottom;R13
+30;150;THT;53.2167;-24.4742;-90;Bottom;R6
+31;;THT;88.8235;-35.9699;90;Bottom;J4
+32;;;9.29685;-6.69737;0;Bottom;Via7
+33;;THT;11.2597;-33.465;90;Bottom;J1
+34;;DIP (Dual Inline) [THT];72.046;-21.9191;-90;Bottom;SN74HC1
+35;;to-92;12.6723;-29.4867;6.36111e-15;Bottom;Q2
+36;;;19.4743;-23.4673;0;Bottom;Via12
+37;;;9.21271;-10.7758;0;Bottom;Via4
+38;;to-92;22.67;-25.8442;0;Bottom;Q3
+39;1k;THT;8.83258;-36.246;0;Bottom;Rp7
+40;;to-92;26.4291;-29.8777;0;Bottom;Q5
+41;;;34.6701;-8.45313;0;Bottom;Via5
+42;1k;THT;14.0211;-36.2336;0;Bottom;Rp8
+43;150;THT;45.5967;-24.4742;-90;Bottom;R9
+44;1k;THT;27.3339;-36.3531;180;Bottom;Rp5
+45;;;83.7528;-4.27674;0;Bottom;Via1
+46;;THT;46.3166;-32.4442;90;Bottom;J7
+47;;100 mil [THT];96.0493;-29.7561;0;Bottom;D8
+48;;;9.37564;-5.32391;0;Bottom;Via9
+49;;THT;25.0194;-33.5566;90;Bottom;J2
+50;150;THT;88.7445;-21.197;0;Bottom;R4
+51;;;12.8651;-20.8935;0;Bottom;Via17
+52;150;THT;37.9767;-24.4742;-90;Bottom;R12
+53;;100 mil [THT];95.0632;-32.8454;0;Bottom;D6
+54;270;THT;95.4551;-4.67993;180;Bottom;R1
+55;;to-92;9.6617;-24.7158;0;Bottom;Q4
+56;;;9.41843;-3.91181;0;Bottom;Via8
