@@ -1,0 +1,3 @@
+https://markus.jarvisalo.dy.fi/2017/12/making-the-raspberry-pi-3-a-bluetooth-audio-receiver/
+
+https://github.com/lukasjapan/bt-speaker
