@@ -1,0 +1,40 @@
+
+sudo apt-get install --no-install-recommends pulseaudio pulseaudio-module-bluetooth
+
+sudo systemctl --global disable pulseaudio.service pulseaudio.socket
+
+--- /etc/systemd/system/pulseaudio.service
+
+[Unit]
+Description=PulseAudio Daemon
+ 
+[Install]
+WantedBy=multi-user.target
+ 
+[Service]
+Type=simple
+PrivateTmp=true
+ExecStart=/usr/bin/pulseaudio --system --realtime --disallow-exit --disable-shm  --no-cpu-limit 
+
+--- /etc/dbus-1/system.d/pulseaudio-bluetooth.conf
+
+<busconfig>
+  
+ <policy user="pulse">  
+  <allow send_destination="org.bluez"/>  
+ </policy>  
+ 
+</busconfig> 
+
+--- end of /etc/pulse/system.pa
+### Automatically load driver modules for Bluetooth hardware  
+.ifexists module-bluetooth-policy.so  
+load-module module-bluetooth-policy  
+.endif  
+ 
+.ifexists module-bluetooth-discover.so  
+load-module module-bluetooth-discover  
+.endif 
+
+systemctl start pulseaudio.service
+systemctl enable pulseaudio.service

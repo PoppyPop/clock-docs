@@ -1,3 +1,11 @@
-https://markus.jarvisalo.dy.fi/2017/12/making-the-raspberry-pi-3-a-bluetooth-audio-receiver/
+curl -s https://raw.githubusercontent.com/poppypop/bt-speaker/master/install.sh | sudo bash
 
-https://github.com/lukasjapan/bt-speaker
+/etc/bluetooth/main.conf
+
+Change name if you want
+
+Modify 
+Class = 0x00041C
+
+Add 
+Enable=Source,Sink,Media
