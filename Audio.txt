@@ -36,5 +36,7 @@ load-module module-bluetooth-policy
 load-module module-bluetooth-discover  
 .endif 
 
+set-sink-volume 0 13108
+
 systemctl start pulseaudio.service
 systemctl enable pulseaudio.service
